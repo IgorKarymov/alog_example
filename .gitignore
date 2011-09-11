@@ -1,0 +1,7 @@
+*~
+*.dump
+*.beam
+ebin/
+deps/
+rel/
+.eunit/*

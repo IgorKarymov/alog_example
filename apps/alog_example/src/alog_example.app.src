@@ -1,0 +1,13 @@
+{application, alog_example,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  alog
+                 ]},
+  {mod, { alog_example_app, []}},
+  {env, []}
+ ]}.
